@@ -14,3 +14,9 @@ function checkCountValue() {
         alert("Your Instagram post gained 20 follower! Keep it up!");
     }
 }
+function resetCount(){
+    count=0;
+    displayCount();
+    alert("The Followers Count has been reset")
+
+}
